@@ -1,6 +1,6 @@
-namespace BirthdayProblem.Tests;
-
 using BirthdayProblem.Service;
+
+namespace BirthdayProblem.Tests;
 
 public class BirthdayServiceTests
 {

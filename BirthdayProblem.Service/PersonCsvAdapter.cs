@@ -1,10 +1,8 @@
-namespace BirthdayProblem.Service;
-
-using System.Collections.Generic;
 using System.Globalization;
-using System.IO;
 using CsvHelper;
 using CsvHelper.Configuration;
+
+namespace BirthdayProblem.Service;
 
 public class PersonCsvAdapter : ClassMap<Person>
 {

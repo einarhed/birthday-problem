@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-
-namespace BirthdayProblem.Service;
+﻿namespace BirthdayProblem.Service;
 
 class Program
 {
