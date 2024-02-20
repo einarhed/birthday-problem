@@ -16,7 +16,7 @@ public class PersonCsvAdapterTests
         var dateOfBirth2Expected = DateTime.Parse("2006-12-15");
 
         // Act
-        var result = PersonCsvAdapter.GetPersonsFromCsv(fileName);
+        List<Person> result = PersonCsvAdapter.GetPersonsFromCsv(fileName);
 
         // Assert
         Assert.True(result.Count == 2);

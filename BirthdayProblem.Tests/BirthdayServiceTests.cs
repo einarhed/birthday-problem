@@ -14,7 +14,7 @@ public class BirthdayServiceTests
         var service = new BirthdayService(today);
 
         // Act
-        var result = service.IsBirthdayToday(birthday);
+        bool result = service.IsBirthdayToday(birthday);
 
         // Assert
         Assert.True(result);
@@ -30,7 +30,7 @@ public class BirthdayServiceTests
         var service = new BirthdayService(today);
 
         // Act
-        var result = service.IsBirthdayToday(birthday);
+        bool result = service.IsBirthdayToday(birthday);
 
         // Assert
         Assert.False(result);
@@ -46,7 +46,7 @@ public class BirthdayServiceTests
         var service = new BirthdayService(today);
 
         // Act
-        var result = service.IsBirthdayToday(birthday);
+        bool result = service.IsBirthdayToday(birthday);
 
         // Assert
         Assert.False(result);
