@@ -37,11 +37,14 @@ Simple programm that reads csv input that contains a list of persons name and bi
 
 ### Leap year day
 
-Currently the program does not consider if a person birthday is on the 29th of February.
+Currently the program does not consider if a person birthday is on the 29th of February and year is not leap year.
+
 
 **Given** a person has a birthday on 29th of February
 
 **When** today is 28th of February
+
+**And** year is not leap year
 
 **Then** that person should receive a Happy Birthday greeting
 
