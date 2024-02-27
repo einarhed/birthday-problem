@@ -30,7 +30,7 @@ Simple programm that reads csv input that contains a list of persons name and bi
    ```
 3. Run locally
    ```sh
-   make run
+   dotnet run [csv_filename]
    ```
 
 ## Extend the program
@@ -40,7 +40,9 @@ Simple programm that reads csv input that contains a list of persons name and bi
 Currently the program does not consider if a person birthday is on the 29th of February.
 
 **Given** a person has a birthday on 29th of February
+
 **When** today is 28th of February
+
 **Then** that person should receive a Happy Birthday greeting
 
 ### Json input

@@ -2,12 +2,12 @@
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
         var today = DateTime.Today;
         var birthdayService = new BirthdayService(today);
 
-        List<Person> persons = PersonCsvAdapter.GetPersonsFromCsv("BirthdayProblem.Service/person.csv");
+        List<Person> persons = PersonCsvAdapter.GetPersonsFromCsv(args[0]);
 
         foreach (Person p in persons)
         {

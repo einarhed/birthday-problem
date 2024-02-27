@@ -14,6 +14,3 @@ compile:
 
 test-unit:
 	dotnet test --filter Category=Unit --logger "console;verbosity=normal"
-
-run:
-	dotnet run --project BirthdayProblem.Service/BirthdayProblem.Service.csproj
