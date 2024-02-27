@@ -39,15 +39,16 @@ Simple programm that reads csv input that contains a list of persons name and bi
 
 Currently the program does not consider if a person birthday is on the 29th of February and year is not leap year.
 
+`Given` a person has a birthday on 29th of February
 
-**Given** a person has a birthday on 29th of February
+`When` today is 28th of February
 
-**When** today is 28th of February
+`And` year is not leap year
 
-**And** year is not leap year
-
-**Then** that person should receive a Happy Birthday greeting
+`Then` that person should receive a Happy Birthday greeting
 
 ### Json input
 
-Currently the program does not support reading Json input. Add a new adapter that supports reading a Json file as input.
+Currently the program does not support reading Json input but there is a `person.json` file in the project.
+
+Add a new adapter that supports reading a Json file as input.
