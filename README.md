@@ -30,7 +30,7 @@ Simple programm that reads csv input that contains a list of persons name and bi
    ```
 3. Run locally
    ```sh
-   dotnet run [csv_filename]
+   make run
    ```
 
 ## Extend the program
