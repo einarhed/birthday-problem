@@ -20,15 +20,11 @@ Simple programm that reads csv input that contains a list of persons name and bi
 
 ### Executing program
 
-1. Build locally
+1. Build and run tests
    ```sh
    make build
    ```
-2. Test locally
-   ```sh
-   make test
-   ```
-3. Run locally
+2. Run locally
    ```sh
    make run
    ```
