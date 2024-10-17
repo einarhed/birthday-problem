@@ -14,5 +14,17 @@
   {
     "fullName": "Plato",
     "dateOfBirth": "0428-02-27T00:00:00Z"
+  },
+  {
+    "fullName": "Eminem",
+    "dateOfBirth": "1972-10-17T00:00:00Z"
+  },
+  {
+    "fullName": "Kimi Räikkönen",
+    "dateOfBirth": "1979-10-17T00:00:00Z"
+  },
+  {
+    "fullName": "Eminems grandson",
+    "dateOfBirth": "2024-02-29T00:00:00Z"
   }
 ]
